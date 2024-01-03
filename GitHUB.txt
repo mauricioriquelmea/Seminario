@@ -1,0 +1,18 @@
+
+
+echo "# Seminario" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mauricioriquelmea/Seminario.git
+git push -u origin main
+
+
+
+git remote add origin https://github.com/mauricioriquelmea/Seminario.git
+git branch -M main
+git push -u origin main
+
+git config --global user.email "mauricioriquelmea@yahoo.com"
+git config --global user.name "Mauricio Riquelme"

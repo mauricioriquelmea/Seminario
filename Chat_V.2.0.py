@@ -50,11 +50,17 @@ def validar_radio(radio):
 
 # Función para escribir en un archivo llamado comandos.txt
 def escribir_en_archivo(texto):
-    directorio_script = os.path.dirname(os.path.realpath(__file__))
-    ruta_archivo = os.path.join(directorio_script, "comandos.txt")
+    # Define la ruta absoluta donde deseas guardar el archivo comandos.txt
+    ruta_absoluta = "C:/_ Curso/-   Ing. en Comp. e Inf/Cursos/_SEMINARIO DE LICENCIA EN INGENIERIA/Semana 8/Sumativa/Entregable/Python"
+    ruta_archivo = os.path.join(ruta_absoluta, "comandos.txt")
+
+    # Escribe el texto en el archivo comandos.txt
     with open(ruta_archivo, "w") as archivo:
         archivo.write(texto)
+
+    # Abre el archivo comandos.txt en Notepad
     subprocess.Popen(['notepad.exe', ruta_archivo])
+
 
 # Función para escribir comando línea de AutoCAD en Notepad
 def escribir_comando_linea_autocad():
