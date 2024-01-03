@@ -1,0 +1,12 @@
+Cómo dibujar una línea en AutoCAD
+Dibujar una línea recta
+Usar el comando Line
+Qué es el comando Line
+Cómo hacer un círculo en AutoCAD
+Dibujar un círculo con un radio específico
+Usar el comando Circle
+Instrucciones para el comando Circle
+Crear un rectángulo en AutoCAD
+Usar el comando Rectangle
+Cómo dibujar rectángulos
+Hacer un rectángulo con dimensiones específicas
